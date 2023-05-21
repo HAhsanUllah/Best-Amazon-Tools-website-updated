@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Practise</title>
+    <style>
+        h1{
+            color: maroon;
+            text-shadow: 40px;
+        }
+
+        h2{
+            color: aqua;
+            text-align: end;
+        }
+        /* Select all the childs */
+        div p{
+            background-color: aqua;
+        }
+        /* select direct childs only */
+        div > p{
+            background-color: brown;
+        }
+
+        div ~p{
+            background-color: aquamarine;
+        }
+
+        div + p{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="27marchpractise.css">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About us </li>
+                <li>Contact us</li>
+                <li>Projects</li>
+            </ul>
+        </nav>
+        <h1>welcome</h1>
+        <h2>Good bye</h2>
+        <h2>Hyhy </h2>
+
+        <a href="https://qasimtrader.com/">Qasim Trader</a><br><br>
+
+        <label for="t1">Enter your name </label><br>
+        <input type="text" name="t1" id="t1">
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+
+</body>
+</html>

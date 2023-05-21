@@ -1,0 +1,28 @@
+.nav{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    border: 2px solid crimson;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+h1{
+    color: rgb(139, 22, 110);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#t1{
+    width: 250px;
+}
+
+#div1{
+    background-image: url(cui.jpeg);
+}
